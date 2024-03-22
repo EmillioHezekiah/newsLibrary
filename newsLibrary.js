@@ -20,9 +20,9 @@
           // Constructing the HTML for each news item
           widgetHtml += `
             <div style="margin-bottom: 20px;">
-              <h2>${item.heading}</h2>
-              <img src="${item['thumbail image']}" alt="${item.heading}" style="width: 100px; height: auto;">
-              <p>${item['brief thumbnail news']}</p>
+              <h2>${item.Heading}</h2>
+              <img src="${item['Thumbnail image']}" alt="${item.Heading}" style="width: 100px; height: auto;">
+              <p>${item['Brief thumbnail news']}</p>
             </div>
           `; 
         });
